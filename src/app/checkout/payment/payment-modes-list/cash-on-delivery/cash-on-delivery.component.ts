@@ -16,6 +16,8 @@ export class CashOnDeliveryComponent implements OnInit {
 
   onPay() {
     this.payOnDelivery.emit(true);
+    alert("Venta generada")
+    
   }
 
 }
